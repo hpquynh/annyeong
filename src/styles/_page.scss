@@ -1,0 +1,52 @@
+.navbar{
+  background-color: $white;
+  border-bottom: 1px solid $gray-lightest;
+  &-brand{
+   i{
+     color: $green;
+     font-size: 25px;
+   }
+    span{
+      color: #333;
+    }
+    &:hover{
+      color: $green;
+    }
+  }
+}
+.main-container{
+  background-color: $white;
+  min-height: 100vh;
+  position: relative;
+}
+.select-block{
+  padding-top: 20%;
+  .title{
+    margin-bottom: 20px;
+  }
+}
+.button-group{
+  text-align: center;
+  a, button{
+    min-width: 120px;
+  }
+}
+.mw-300{
+  max-width: 300px;
+}
+.block-center{
+  margin: auto;
+}
+.question {
+  text-align: center;
+  padding: 20px;
+  font-size: 4rem;
+}
+.block-answer{
+  padding: 20px 0;
+}
+.answer, .time{
+  text-align: center;
+  font-size: 3rem;
+  color: $green;
+}

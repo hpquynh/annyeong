@@ -1,7 +1,7 @@
 {
-  "name": "vue.js-starter-template",
+  "name": "annyeong",
   "version": "0.10.0",
-  "description": "A starter for Vue.js-projects",
+  "description": "Korean learning",
   "keywords": [
     "vue.js",
     "vue.js router",
@@ -9,12 +9,9 @@
     "webpack 2",
     "animate.css"
   ],
-  "author": "Wille Ristimäki <villeristimaki@gmail.com>",
+  "author": "Quynh HP <hophuongquynh92@gmail.com>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:villeristi/vue.js-starter-template.git"
-  },
+  "repository": "",
   "config": {
     "port": 3000
   },
@@ -28,6 +25,8 @@
     "bootstrap": "4.0.0-alpha.6",
     "css-hot-loader": "^1.3.1",
     "font-awesome": "^4.7.0",
+    "fs": "0.0.1-security",
+    "sweetalert": "^2.1.0",
     "vee-validate": "^2.0.0-rc.5",
     "vue": "^2.3.4",
     "vue-router": "^2.5.3"

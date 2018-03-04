@@ -1,0 +1,17 @@
+<div class="pt-5">
+  <div class="mw-300 block-center">
+    <h4 class="title">Add new word</h4>
+    <div class="form-group">
+      <label for="inputLang1">English</label>
+      <input v-model="en" type="text" class="form-control" id="inputLang1" placeholder="Enter English">
+    </div>
+    <div class="form-group">
+      <label for="inputLang2">Korean</label>
+      <input v-model="kr" type="text" class="form-control" id="inputLang2" placeholder="Enter Korean">
+    </div>
+    <div class="text-center">
+      <button class="btn btn-primary mw-300 col-12" v-on:click="add">Add</button>
+    </div>
+  </div>
+
+</div>
