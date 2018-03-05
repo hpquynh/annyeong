@@ -13,6 +13,14 @@ const routes = [
     component: Home
   },
   {
+    path: '',
+    component: Home
+  },
+  {
+    path: '/annyeong',
+    component: Home
+  },
+  {
     path: '/lang/:lang',
     name: 'lang',
     component: Lang
