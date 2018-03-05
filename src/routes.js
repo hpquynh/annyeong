@@ -1,6 +1,6 @@
 import Home from 'components/Home/home';
 import Lang from 'components/Langs/index';
-import Word from 'components/Words/index';
+
 // import Posts from 'components/Posts/posts';
 // import Post from 'components/Posts/post';
 // import CreatePost from 'components/Posts/createPost';
@@ -16,10 +16,6 @@ const routes = [
     path: '/lang/:lang',
     name: 'lang',
     component: Lang
-  },
-  {
-    path: '/word',
-    component: Word
   },
   // {
   //   path: '/posts',
